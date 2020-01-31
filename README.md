@@ -1,2 +1,5 @@
 # prismagram
-Graphql + Prisma + React and RN
+
+NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
+
+## User Strories
