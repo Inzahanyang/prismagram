@@ -1,2 +1,2 @@
 # prismagram
-Express + Prisma + React and RN
+Graphql + Prisma + React and RN
