@@ -4,6 +4,7 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 
 ## User Strories
 
+- [ ] Log in
 - [ ] See the feed
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
@@ -13,7 +14,6 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [ ] Follow / Unfollow User
 - [ ] see the full photo
 - [ ] Edit my profile
-- [ ] Create account
-  - [ ] Log in
+- [x] Create account
 - [ ] Upload a photo
 - [ ] Edit the photh(Delete)
