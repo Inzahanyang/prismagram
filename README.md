@@ -17,4 +17,4 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [ ] see the full photo
 - [ ] Edit my profile
 - [ ] Upload a photo
-- [ ] Edit the photh(Delete)
+- [ ] Edit the photo(Delete)
