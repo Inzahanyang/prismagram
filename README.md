@@ -5,7 +5,7 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 ## User Stories
 
 - [x] Create account
-- [ ] Request Secret
+- [x] Request Secret
 - [ ] Confirm Secret (login)
 - [ ] See the feed
 - [ ] Like / Unlike a photo
