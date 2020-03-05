@@ -8,7 +8,7 @@ export default {
       const { postId } = args;
       const { user } = request;
       try {
-        const existingLike = prisma.$exists.like({
+        const existingLike = await prisma.$exists.like({
           AND: [
             {
               user: {
@@ -23,7 +23,7 @@ export default {
           ]
         });
         if (existingLike) {
-          // to do
+          // TO DO
         } else {
           await prisma.createLike({
             user: {
@@ -39,7 +39,7 @@ export default {
           });
         }
         return true;
-      } catch (e) {
+      } catch {
         return false;
       }
     }
