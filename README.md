@@ -13,10 +13,14 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [x] Search by location
 - [x] Follow User
 - [x] Unfollow User
+- [x] Edit my profile
 - [x] See user profile
 - [x] Edit User
-- [ ] see the full photo
-- [ ] Edit my profile
+- [x] see the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo(Delete)
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message (Realtime)
