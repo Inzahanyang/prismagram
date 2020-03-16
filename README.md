@@ -17,8 +17,8 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [x] See user profile
 - [x] Edit User
 - [x] see the full photo
-- [ ] Upload a photo
-- [ ] Edit the photo(Delete)
+- [x] Upload a photo
+- [x] Edit the photo(Delete)
 - [ ] See the feed
 - [ ] See rooms
 - [ ] See room
