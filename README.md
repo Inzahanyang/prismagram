@@ -20,7 +20,7 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [x] Upload a photo
 - [x] Edit the photo(Delete)
 - [x] See the feed
-- [ ] See rooms
-- [ ] See room
 - [ ] Send private Message
+- [x] See rooms
+- [ ] See room
 - [ ] Receive Message (Realtime)
