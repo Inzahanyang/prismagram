@@ -23,4 +23,4 @@ NodeJs, Prisma, GraphQL(yoga), Hooks, React+ReactNative, Apollo ...
 - [x] Send private Message
 - [x] See rooms
 - [x] See room
-- [ ] Receive Message (Realtime)
+- [x] Receive Message (Realtime)
