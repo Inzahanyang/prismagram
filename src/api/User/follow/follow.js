@@ -1,5 +1,5 @@
-import { prisma } from "../../../../generated/prisma-client";
 import { isAuthenticated } from "../../../middlewares";
+import { prisma } from "../../../../generated/prisma-client";
 
 export default {
   Mutation: {
@@ -13,15 +13,15 @@ export default {
           data: {
             following: {
               connect: {
-                id
-              }
-            }
-          }
+                id,
+              },
+            },
+          },
         });
         return true;
       } catch {
         return false;
       }
-    }
-  }
+    },
+  },
 };

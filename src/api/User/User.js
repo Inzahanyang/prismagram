@@ -1,4 +1,4 @@
-import prisma from "../../../generated/prisma-client";
+import { prisma } from "../../../generated/prisma-client";
 
 export default {
   User: {
@@ -18,24 +18,20 @@ export default {
         .usersConnection({ where: { following_none: { id } } })
         .aggregate()
         .count(),
-    fullName: parent => {
+    fullName: (parent) => {
       return `${parent.firstName} ${parent.lastName}`;
     },
-    isFollowing: async (parent, _, { request }) => {
+    isFollowing: (parent, _, { request }) => {
       const { user } = request;
       const { id: parentId } = parent;
-      try {
-        return prisma.$exists.user({
-          AND: [{ id: user.id }, { followers_some: { id: parentId } }]
-        });
-      } catch {
-        return false;
-      }
+      return prisma.$exists.user({
+        AND: [{ id: user.id }, { following_some: { id: parentId } }],
+      });
     },
     isSelf: (parent, _, { request }) => {
       const { user } = request;
       const { id: parentId } = parent;
       return user.id === parentId;
-    }
-  }
+    },
+  },
 };
